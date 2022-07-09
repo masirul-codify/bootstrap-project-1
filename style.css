@@ -96,6 +96,26 @@ nav ul a:hover{
     }
     
     
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+    
 /* portfolio */
     .category{
         font-size: 12px !important;
@@ -116,7 +136,7 @@ nav ul a:hover{
 .bg-image{
     background-image: url(images/hero-bg.jpg);
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -125,12 +145,32 @@ nav ul a:hover{
     
     .opacity{
         width: 100%;
-        height: 1000px;
+        height: 900px;
         background-color: rgb(3, 0, 0);
         opacity: 0.6 !important;
         position: absolute;
     }
     
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
  }
  
  /* Medium devices (landscape tablets, 768px and up) */
@@ -140,7 +180,7 @@ nav ul a:hover{
 .bg-image{
     background-image: url(images/hero-bg.jpg);
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -149,7 +189,7 @@ nav ul a:hover{
     
     .opacity{
         width: 100%;
-        height: 1000px;
+        height: 900px;
         background-color: rgb(3, 0, 0);
         opacity: 0.6 !important;
         position: absolute;
@@ -158,7 +198,83 @@ nav ul a:hover{
  }
  
  /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {...}
+ @media only screen and (min-width: 992px) {.bg-image{
+
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+}
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {...} 
+ @media only screen and (min-width: 1200px) {
+     
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+    /* service start */
+    .servicebg-image{
+        width: 100%;
+        height: 250px;
+        position:relative;
+        background-image: url(images/call-to-action-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .serviceopacity{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 0.6;
+        position:absolute;
+    }
+} 
