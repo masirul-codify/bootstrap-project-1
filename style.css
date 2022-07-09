@@ -42,7 +42,7 @@ position: relative;
 /* service start */
 .servicebg-image{
     width: 100%;
-    height: 350px;
+    height: 200px;
     position:relative;
     background-image: url(images/call-to-action-bg.jpg);
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ position: relative;
 /* service start */
 .servicebg-image{
     width: 100%;
-    height: 400px;
+    height: 300px;
     position:relative;
     background-image: url(images/call-to-action-bg.jpg);
     background-repeat: no-repeat;
@@ -127,10 +127,22 @@ position: relative;
  @media only screen and (min-width: 600px) {...}
  
  /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {...}
+ @media only screen and (min-width: 768px) {
+/* team */
+
+.img-portfolio{
+    flex-direction: column;
+}
+}
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {...}
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {...} 
+ @media only screen and (min-width: 1200px) {
+/* team */
+
+.img-portfolio{
+    flex-direction: column;
+}
+} 
