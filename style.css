@@ -49,7 +49,7 @@ nav ul a:hover{
 /* service start */
 .servicebg-image{
     width: 100%;
-    height: 200px;
+    height: 250px;
     position:relative;
     background-image: url(images/call-to-action-bg.jpg);
     background-repeat: no-repeat;
@@ -60,33 +60,45 @@ nav ul a:hover{
 
 .serviceopacity{
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: black;
     opacity: 0.6;
     position:absolute;
 }
 
-/* responsive start */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
-    .cateogory {
-        font-size: 8px !important;
-    }
 
-    .img-portfolio{
-        flex-direction: column !important;
-    }
+/* team */
+
+.img-portfolio{
+    flex-direction: column;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+/* ====== media query  ======== */
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+/* portfolio */
+    .category{
+        font-size: 12px !important;
+    }
+    .button{
+        padding: 8px 20px!important;
+        background-color: rgb(3, 0, 0);
+        color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+    }
+ }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...} 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {...} 
