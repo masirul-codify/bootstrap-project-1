@@ -73,6 +73,10 @@ nav ul a:hover{
     .cateogory {
         font-size: 8px !important;
     }
+
+    .img-portfolio{
+        flex-direction: column !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
