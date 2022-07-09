@@ -76,6 +76,26 @@ nav ul a:hover{
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
     
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+    
 /* portfolio */
     .category{
         font-size: 12px !important;
@@ -90,10 +110,52 @@ nav ul a:hover{
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 600px) {...}
+ @media only screen and (min-width: 600px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+ }
  
  /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {...}
+ @media only screen and (min-width: 768px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+ }
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {...}
