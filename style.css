@@ -23,13 +23,6 @@ position: relative;
     position: absolute;
 }
 
-nav ul a:hover{
-    background-color: red !important;
-    color: white !important;
-    border: 2px solid black !important;
-    padding: 10px !important;
-}
-
 
 /* hero area */
 .button{
